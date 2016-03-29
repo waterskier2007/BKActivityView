@@ -12,9 +12,9 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 
     s.author = { "[Brendan Kirchner]" => "[brendankirchner@me.com]" }
 
-    s.homepage = "[https://github.com/waterskier2007/BKActivityView]"
+    s.homepage = "[http://github.com/waterskier2007/BKActivityView]"
 
-    s.source = { :git => "[https://github.com/waterskier2007/BKActivityView/BKActivityView]", :tag => "#{s.version}" }
+    s.source = { :git => "[http://github.com/waterskier2007/BKActivityView/BKActivityView]", :tag => "#{s.version}" }
 
     s.framework = "UIKit"
 
