@@ -12,6 +12,7 @@
 		B4DDB6ED1CAB02AF0097A903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DDB6EB1CAB02AF0097A903 /* Main.storyboard */; };
 		B4DDB6EF1CAB02AF0097A903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DDB6EE1CAB02AF0097A903 /* Assets.xcassets */; };
 		B4DDB6F21CAB02AF0097A903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DDB6F01CAB02AF0097A903 /* LaunchScreen.storyboard */; };
+		B4DDB7141CAB05A50097A903 /* BKActivityView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DDB7131CAB05A50097A903 /* BKActivityView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B4DDB6EE1CAB02AF0097A903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4DDB6F11CAB02AF0097A903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4DDB6F31CAB02AF0097A903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DDB7131CAB05A50097A903 /* BKActivityView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BKActivityView.framework; path = "../../../Library/Developer/Xcode/DerivedData/ActivityView-dwttpwrctchueqbqeexrssxwhyyt/Build/Products/Debug-iphonesimulator/BKActivityView.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4DDB7141CAB05A50097A903 /* BKActivityView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				B4DDB6E61CAB02AF0097A903 /* ActivityView */,
 				B4DDB6E51CAB02AF0097A903 /* Products */,
+				B4DDB7121CAB037E0097A903 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				B4DDB6F31CAB02AF0097A903 /* Info.plist */,
 			);
 			path = ActivityView;
+			sourceTree = "<group>";
+		};
+		B4DDB7121CAB037E0097A903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4DDB7131CAB05A50097A903 /* BKActivityView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +263,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BKActivityView/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = ActivityView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BrendanKirchner.ActivityView;
@@ -262,6 +278,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BKActivityView/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = ActivityView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BrendanKirchner.ActivityView;
@@ -288,6 +308,7 @@
 				B4DDB6F81CAB02AF0097A903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

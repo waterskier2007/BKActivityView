@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import BKActivityView
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var activityView: BKActivityView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +22,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func startOrStop() {
+        activityView.startOrStop()
+    }
 
 }
 
