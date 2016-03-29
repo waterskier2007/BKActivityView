@@ -14,7 +14,7 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 
     s.homepage = "https://github.com/waterskier2007/BKActivityView"
 
-    s.source = { :git => "https://github.com/waterskier2007/BKActivityView/BKActivityView", :tag => "#{s.version}" }
+    s.source = { :git => "https://github.com/waterskier2007/BKActivityView", :tag => "#{s.version}" }
 
     s.framework = "UIKit"
 
