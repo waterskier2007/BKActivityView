@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class BKActivityView: UIView {
+public class ActivityView: UIView {
 
     private var circleView1: CircleView!
     private var circleView2: CircleView!
@@ -54,7 +54,7 @@ public class BKActivityView: UIView {
     
     func enableTapping() {
         self.userInteractionEnabled = true
-        let recog = UITapGestureRecognizer(target: self, action: #selector(BKActivityView.tapped))
+        let recog = UITapGestureRecognizer(target: self, action: #selector(ActivityView.tapped))
         self.addGestureRecognizer(recog)
     }
     

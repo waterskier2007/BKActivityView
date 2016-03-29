@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ActivityViewExample
+//  Example
 //
 //  Created by Brendan Kirchner on 3/29/16.
 //  Copyright © 2016 Brendan Kirchner. All rights reserved.
