@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.summary = "A good looking activity indicator."
     s.requires_arc = true
 
-    s.version = "0.1.0"
+    s.version = "0.3.0"
 
     s.license = { :type => "MIT", :file => "LICENSE" }
 
