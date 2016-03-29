@@ -10,15 +10,15 @@ Pod::Spec.new do |s|
 
     s.license = { :type => "MIT", :file => "LICENSE" }
 
-    s.author = { "Joshua Greene" => "jrg.developer@gmail.com" }
+    s.author = { "Brendan Kirchner" => "brendankirchner@me.com" }
 
-    s.homepage = "https://github.com/JRG-Developer/RWPickFlavor"
+    s.homepage = "https://github.com/waterskier2007/BKActivityView"
 
-    s.source = { :git => "https://github.com/waterskier2007/BKActivityView", :tag => "#{s.version}"}
+    s.source = { :git => "https://github.com/waterskier2007/BKActivityView.git", :tag => "#{s.version}"}
 
     s.framework = "UIKit"
 
-    s.source_files = "RWPickFlavor/**/*.{swift}"
+    s.source_files = "ActivityView/**/*.{swift}"
 
     # s.resources = "ActivityView/**/*.{png,jpeg,jpg,storyboard,xib}"
 
