@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B4DDB7071CAB030F0097A903 /* BKActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DDB7061CAB030F0097A903 /* BKActivityView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4DDB70F1CAB03280097A903 /* BKActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DDB70E1CAB03280097A903 /* BKActivityView.swift */; };
+		B4E00D251CAB0A2C009508E7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B4E00D241CAB0A2C009508E7 /* LICENSE */; };
+		B4E00D271CAB0A3A009508E7 /* BKActivityView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B4E00D261CAB0A3A009508E7 /* BKActivityView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		B4DDB7061CAB030F0097A903 /* BKActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKActivityView.h; sourceTree = "<group>"; };
 		B4DDB7081CAB030F0097A903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DDB70E1CAB03280097A903 /* BKActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKActivityView.swift; sourceTree = "<group>"; };
+		B4E00D241CAB0A2C009508E7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B4E00D261CAB0A3A009508E7 /* BKActivityView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BKActivityView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 		B4DDB6F91CAB030F0097A903 = {
 			isa = PBXGroup;
 			children = (
+				B4E00D241CAB0A2C009508E7 /* LICENSE */,
+				B4E00D261CAB0A3A009508E7 /* BKActivityView.podspec */,
 				B4DDB7051CAB030F0097A903 /* BKActivityView */,
 				B4DDB7041CAB030F0097A903 /* Products */,
 			);
@@ -123,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E00D251CAB0A2C009508E7 /* LICENSE in Resources */,
+				B4E00D271CAB0A3A009508E7 /* BKActivityView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				B4DDB70D1CAB030F0097A903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ActivityView.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:BKActivityView/BKActivityView.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ActivityView.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
     s.version = "0.1.0"
 
-    s.license = { :type => "MIT", "file => "LICENSE" }
+s.license = { :type => "MIT", :file => "LICENSE" }
 
     s.author = { "[Brendan Kirchner]" => "[brendankirchner@me.com]" }
 
