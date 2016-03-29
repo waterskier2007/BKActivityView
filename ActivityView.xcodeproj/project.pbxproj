@@ -13,6 +13,7 @@
 		B4DDB6ED1CAB02AF0097A903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DDB6EB1CAB02AF0097A903 /* Main.storyboard */; };
 		B4DDB6EF1CAB02AF0097A903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DDB6EE1CAB02AF0097A903 /* Assets.xcassets */; };
 		B4DDB6F21CAB02AF0097A903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DDB6F01CAB02AF0097A903 /* LaunchScreen.storyboard */; };
+		B4E00D291CAB0B0D009508E7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B4E00D281CAB0B0D009508E7 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B4DDB6F11CAB02AF0097A903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4DDB6F31CAB02AF0097A903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DDB7131CAB05A50097A903 /* BKActivityView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BKActivityView.framework; path = "../../../Library/Developer/Xcode/DerivedData/ActivityView-dwttpwrctchueqbqeexrssxwhyyt/Build/Products/Debug-iphonesimulator/BKActivityView.framework"; sourceTree = "<group>"; };
+		B4E00D281CAB0B0D009508E7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		FD3E6800874AD4585ECDC706 /* Pods-ActivityView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivityView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActivityView/Pods-ActivityView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +46,7 @@
 		B4DDB6DB1CAB02AF0097A903 = {
 			isa = PBXGroup;
 			children = (
+				B4E00D281CAB0B0D009508E7 /* Podfile */,
 				B4DDB6E61CAB02AF0097A903 /* ActivityView */,
 				B4DDB6E51CAB02AF0097A903 /* Products */,
 				B4DDB7121CAB037E0097A903 /* Frameworks */,
@@ -153,6 +156,7 @@
 			files = (
 				B4DDB6F21CAB02AF0097A903 /* LaunchScreen.storyboard in Resources */,
 				B4DDB6EF1CAB02AF0097A903 /* Assets.xcassets in Resources */,
+				B4E00D291CAB0B0D009508E7 /* Podfile in Resources */,
 				B4DDB6ED1CAB02AF0097A903 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
