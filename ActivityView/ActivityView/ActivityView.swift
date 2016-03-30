@@ -110,6 +110,18 @@ public class ActivityView: UIView {
         circleView2.changeColor(UIColor.randomColor())
         circleView3.changeColor(UIColor.randomColor())
     }
+    
+    public func changeColors(color1: UIColor? = nil, color2: UIColor? = nil, color3: UIColor? = nil) {
+        if let color1 = color1 {
+            circleView1.changeColor(color1)
+        }
+        if let color2 = color2 {
+            circleView2.changeColor(color2)
+        }
+        if let color3 = color3 {
+            circleView3.changeColor(color3)
+        }
+    }
 
 }
 
