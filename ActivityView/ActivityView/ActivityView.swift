@@ -26,7 +26,9 @@ public class ActivityView: UIView {
     }
     
     func customInit() {
-        let rect = self.bounds
+        let minDimension = min(self.bounds.width, self.bounds.height)
+        let rect = CGRectMake(CGRectGetMidX(self.bounds) - minDimension / 2.0, CGRectGetMidY(self.bounds) - minDimension / 2.0, minDimension, minDimension)
+        
         let lineWidth = (rect.size.width / 2.0) / 5.0
         let sc = lineWidth / 2.0
         

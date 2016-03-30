@@ -18,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="npR-nv-gHU" customClass="ActivityView" customModule="ActivityView">
-                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <rect key="frame" x="225" y="250" width="150" height="100"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="N0E-62-khJ"/>
+                                    <constraint firstAttribute="width" constant="150" id="N0E-62-khJ"/>
                                     <constraint firstAttribute="height" constant="100" id="Vec-yd-N4k"/>
                                 </constraints>
                             </view>
