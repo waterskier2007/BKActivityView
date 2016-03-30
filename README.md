@@ -8,7 +8,7 @@ It's a set of concentric rings that start out in red, green, and blue, but when 
 
 The view is hidden when not animating
 
-![example](http://i.imgur.com/PGd7zML.png)
+![example](http://i.imgur.com/94Np8Qx.png)
 
 #Installation
 
