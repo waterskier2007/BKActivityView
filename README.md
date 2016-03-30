@@ -1,4 +1,4 @@
-# ActivityView
+#ActivityView
 
 This is my first attempt at creating a CocoaPod
 
@@ -16,3 +16,7 @@ pod 'ActivityView' or manually include ActivityView.swift
 
 Add a UIView to your storyboard or create with init(frame: CGRect)
 It is wise to have the height and width match, but it will calculate the size of the rings based on the smallest of the two dimensions
+
+#License
+
+MIT License, see LICENSE file
